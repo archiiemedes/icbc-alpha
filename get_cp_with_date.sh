@@ -5,4 +5,5 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-echo `date +"%d/%m/%Y"` `./get_cp.sh "$1"`
+dirname=`dirname $0`
+echo `date +"%d/%m/%Y"` `$dirname/get_cp.sh "$1"`
