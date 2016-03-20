@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 if [ "$#" -ne 1 ]; then
     echo Uso: $0 \'ALPHA MEGA CLASE C\'
